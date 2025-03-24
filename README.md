@@ -7,7 +7,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://evaldaspecenkis.github.io/54group-git-to-do/
 
-Design: https://dribbble.com/shots/5964475-404-Lost-in-Space
+
 
 🎯 Project features/goals
 Github pages
