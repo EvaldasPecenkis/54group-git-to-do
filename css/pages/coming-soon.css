@@ -9,3 +9,38 @@
 @import "../../css/components/mouse.css";
 @import "../components/socials.css";
 /* custom */
+@import "../components/form.css";
+
+
+.back-to-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: -2rem;
+  right: -1rem;
+  background-color: #ec1d61;
+  border-radius: 50%;
+  color: #fff;
+  box-shadow: 0 0.2rem 0.4rem #0006;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+
+
+.footer {
+  padding-top: 0;
+  color: #fffa;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer p a:hover {
+  text-decoration: underline;
+}

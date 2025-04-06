@@ -1,21 +1,43 @@
 .mouse {
-  font-size: 20px;
+  font-size: 1.5rem;
+  border: 0.1em solid #fff;
   width: 1.2em;
   height: 1.9em;
-  border: 0.15em solid #fff;
   border-radius: 0.6em;
   align-self: center;
-}
+} 
 .mouse::before {
-content: "";
-display: block;
-font-size: inherit;
-width: 0.15em;
-height: 0.4em;
-margin-top: 0.3em;
-margin-left: 0.375em;
-background-color: #fff
+  content: '';
+  font-size: inherit;
+  display: block;
+  width: 0.15em;
+  height: 0.4em;
+  background-color: #fff;
+  margin-left: 0.375em;
+  margin-top: 0.3em;
+  border-radius: 0.2em;
+  animation-name: scroll;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-play-state: paused;
 }
-.mouse::after {
 
+.mouse:hover::before {
+  animation-play-state: running;
+}
+
+@keyframes scroll {
+  0% {
+      margin-top: 0.3em;
+      opacity: 1;
+  }
+  30% {
+      background-color: #ec1d61;
+      opacity: 1;
+  }
+  100% {
+      margin-top: 1em;
+      opacity: 0;
+  }
 }
