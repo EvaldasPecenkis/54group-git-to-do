@@ -2,22 +2,32 @@
   display: flex;
   gap: 1rem;
   width: 100%;
+  gap: 1.5rem 0;
+  flex-wrap: wrap;
   color: white;
 }
 .clock > .time {
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
-  width: 100%;
+  width: 25%;
   text-align: center;
 }
 .clock > .time > .value {
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-weight: bold;
 }
 .clock > .time > .label {
   font-size: 1rem;
   text-transform: uppercase;
-  
-
-}
+  }
+  @media (max-width: 700px) {
+    .clock > .time {
+      width: 100%;
+    }
+  }
+  @media (max-width: 500px) {
+    .clock > .time {
+      width: 100%;
+    }
+  }

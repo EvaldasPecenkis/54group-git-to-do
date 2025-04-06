@@ -1,5 +1,11 @@
+/* vendors */
+@import "../vendors/font-awesome.min.css";
+/* base */
 @import "../base/main.css";
 @import "../base/layout.css";
+/* components */
 @import "../components/clock.css";
 @import "../components/progress-bar.css";
 @import "../../css/components/mouse.css";
+@import "../components/socials.css";
+/* custom */
